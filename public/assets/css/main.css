@@ -1,0 +1,608 @@
+.app-modal.open-login {
+    display: flex;
+}
+
+.header__nav-wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    align-items: center;
+    border: 1px solid #026427;
+}
+
+.header__nav-logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header__nav-logo-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+.header__nav-logo-links {
+    background-color: #fff;
+    height: 60px;
+}
+
+.header__nav-logo-title {
+    padding-left: 8px;
+    font-size: 1.4rem;
+}
+
+.header__nav-search-icon {
+    color: var(--primary-color);
+}
+
+.header__nav-search {
+    flex: 3;
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+}
+
+.header__nav-functions {
+    flex: 1;
+    text-align: right;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__nav-search-input {
+    flex: 1;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* -----FORM LOGIN-------- */
+
+.app-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.form-login {
+    margin: auto;
+    min-height: 200px;
+    width: 900px;
+    background-color: #fff;
+    position: relative;
+    animation: fadeIn ease-in 0.3s;
+    border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+.form-login-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: var(--white-color);
+    cursor: pointer;
+    border-top-right-radius: 10px;
+}
+
+.form-login-close:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.header-cotain-links {
+    display: flex;
+}
+
+.login__home-links {
+    margin: 0 auto;
+}
+
+.login__header-title {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+
+.login__home-img {
+    width: 60px;
+    height: 60px;
+}
+
+.login__header {
+    background-color: #04AA6D;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-login__body {
+    margin-top: 10px;
+}
+
+.login__user-icon,
+.login__password-icon,
+.form-login__input,
+.form-login__user-title {
+    font-size: 1.5rem;
+}
+
+.form-login__body {
+    padding: 0 20px;
+}
+
+.form-login__user-title {
+    display: block;
+    padding: 10px;
+}
+
+.form-login__input {
+    padding: 8px 0px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    margin-bottom: 14px;
+}
+
+.form-login__body-advanted {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-login__forgot-link {
+    color: #5fb181;
+}
+
+.btn-login {
+    margin-top: 14px;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #5fb181;
+    color: var(--white-color);
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.login-form__footer {
+    margin-top: 18px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: flex-end;
+}
+
+.login-form__footer-create-account {
+    font-size: 1.5rem;
+}
+
+
+/* FORM REGISTER */
+
+.form-create-user {
+    color: #5fb181;
+}
+
+.app-modal-register.open-register {
+    display: flex;
+}
+
+.app-modal-register {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.form-register {
+    width: 900px;
+    min-height: 200px;
+    background-color: #fff;
+    margin: auto;
+    animation: fadeIn ease-in 0.3s;
+    position: relative;
+    border-radius: 10px;
+}
+
+.register__header {
+    background-color: #04AA6D;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.register__header-title {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.register__body {
+    padding: 20px 30px;
+}
+
+.register-title {
+    display: block;
+    font-size: 1.4rem;
+    margin: 12px 0 4px 0;
+}
+
+.register__body-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__body-input {
+    margin-left: 4px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+.register__body-firstName,
+.register__body-lastName {
+    flex: 1;
+}
+
+.register__body-firstName {
+    margin-right: 20px;
+}
+
+.btn__register {
+    margin-top: 14px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+    background-color: #04AA6D;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btn__register:hover {
+    background: #17d48f;
+    ;
+}
+
+.register__footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register__footer .login-form__footer-create-account {
+    padding: 0 30px 30px 30px;
+}
+
+
+/* =================CATEGORY==================== */
+
+.app__container {
+    padding-top: 10px;
+}
+
+.category {
+    background-color: var(--white-color);
+}
+
+.category-list .category-item-links {
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 8px 32px;
+    color: var(--text-color);
+}
+
+.category-icon {
+    font-size: 1.4rem;
+}
+
+.category-heading {
+    border-radius: 2px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0 8px 16px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-item-links {
+    position: relative;
+    right: 0;
+    transition: right linear 0.1s;
+}
+
+.category-item-links:hover {
+    background-color: #ccc;
+    color: var(--primary-color);
+    right: -4px;
+}
+
+.main-products {}
+
+.main-product-item {
+    background-color: var(--white-color);
+    border: 2px solid var(--primary-color);
+}
+
+.main-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-product-item__name {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    padding: 0 8px;
+}
+
+.product-item__date {
+    font-size: 1.4rem;
+    padding: 0 8px;
+}
+
+.product-item__detail-link {
+    display: block;
+    text-decoration: none;
+    bottom: 0;
+    transition: bottom linear 0.1s;
+    position: relative;
+}
+
+.products__page {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 12px 20px;
+}
+
+.product-item__detail-link:hover {
+    bottom: 4px;
+}
+
+.products__page {
+    display: flex;
+    align-items: center;
+}
+
+.products__page-sortof,
+.select-sort-title,
+.sort-item {
+    font-size: 1.4rem;
+}
+
+.home__page-percen {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.select-sort {
+    margin-left: 50px;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+}
+
+.select-sort:hover .sort-list {
+    display: block;
+}
+
+.page-remotes {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0 4px;
+    background-color: var(--primary-color);
+    margin-left: 8px;
+}
+
+.page-remote-icon {
+    font-size: 1.4rem;
+}
+
+.sort-list {
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: var(--white-color);
+    padding: 0;
+    list-style: none;
+}
+
+.sort-item-link {
+    display: block;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+.home__page-percenofPage {
+    font-size: 1.4rem;
+}
+
+
+/*footer__container*/
+
+.footer__container {
+    padding: 12px 0 50px 0;
+    background-color: #ccc;
+    display: flex;
+}
+
+.infomation-contact-title {
+    margin: 8px 0;
+    font-size: 1.4rem;
+    display: block;
+}
+
+.infomation-contact-links {
+    margin: 8px 0;
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.footer-icon {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.sort-item:hover .sort-item-link {
+    color: var(--primary-color);
+}
+
+
+/* detail  */
+
+.app {
+    background-color: #ccc;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+}
+
+.detail__container {
+    margin-top: 30px;
+}
+
+.detail__contain-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+}
+
+.detail__content {
+    background-color: #fff;
+    padding: 0 16px;
+}
+
+.detail__contain-title {
+    font-size: 2.0rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.detail__contain-decription {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+
+/*CSS VIDEO  */
+
+.background__video {
+    border: 5px solid red;
+    height: 500px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.video__title {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.setBackground {
+    background-color: var(--white-color);
+}
+
+.video__container {
+    margin-bottom: 500px;
+    margin-top: 50px;
+}
+
+.video-list-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.video-lists {
+    list-style: none;
+}
+
+.video-list-item-links {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 10px 12px;
+    color: var(--primary-color);
+}
+
+.video-list-item {
+    margin: 4px 0;
+    background-color: #ccc;
+}
+
+.video-list-item :hover {
+    background-color: #e7e6e6;
+}
+
+.buttonList-video {
+    width: 100%;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.video-lists {
+    display: none;
+    padding: 0;
+}
+
+.buttonList-video__add-icon {
+    padding: 0 8px;
+}
+
+.video-lists.droplist-video-open {
+    display: block;
+}
+
+.video-list-item-links-icon {
+    padding: 0 8px;
+    color: rgb(220, 65, 9);
+}

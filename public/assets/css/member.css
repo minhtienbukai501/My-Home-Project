@@ -1,0 +1,97 @@
+.profile__background {
+    height: 300px;
+}
+
+.header {
+    background-color: #6845e7;
+}
+
+.profile__info {
+    background-color: var(--white-color);
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+
+/* csss info  */
+
+
+/* Imgae */
+
+.profile__info-image {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: #f6b1b1;
+}
+
+.profile__info-infomation {
+    padding: 50px 50px;
+}
+
+.profile__info-name {
+    font-size: 3rem;
+}
+
+.profile__info-birthday {
+    font-size: 1.6rem;
+    display: block;
+    font-weight: 500;
+}
+
+.profile__info-decription {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: block;
+    line-height: 1.5;
+}
+
+.body {
+    background-color: #ccc;
+}
+
+.content__title {
+    text-align: center;
+    font-size: 2.0rem;
+    margin: 0;
+    padding: 30px 0;
+    background-color: #04aa6d87;
+    color: var(--white-color);
+}
+
+.content {
+    background-color: #fff;
+}
+
+.content__image {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content__image-title {
+    font-size: 2rem;
+}
+
+.content__image-date {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.content__image-decription {
+    font-size: 1.2rem;
+}
+
+.content {
+    padding: 0 30px;
+    margin-bottom: 20px;
+    border: 5px solid var(--primary-color);
+}
+
+.show_detail_links {
+    text-decoration: none;
+    color: none;
+}

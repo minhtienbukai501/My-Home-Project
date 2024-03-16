@@ -1,0 +1,146 @@
+:root {
+    --white-color: #fff;
+    --primary-color: #04AA6D;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.app__container {
+    width: 100%;
+    background-color: #dedede;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+
+/* responsive */
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+}
+
+.grid__column-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.grid__column-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+}
+
+.grid__column-7 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 70%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+}
+
+.grid__row-2-of-10 {
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn {
+    border-radius: 16px;
+    padding: 8px 0px;
+    min-width: 100px;
+    cursor: pointer;
+    background-color: #28bbc3f0;
+    text-align: center;
+}
+
+.app-modal-register {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.page {
+    background-color: var(--white-color);
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #04AA6D;
+}
+
+.page-content {
+    margin-left: auto;
+}
+
+.pag_btn {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #04AA6D;
+    margin-right: 4px;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+
+/* XU LY PRODUCTS */
