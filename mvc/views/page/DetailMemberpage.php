@@ -7,13 +7,13 @@
                     <div class="detail__content">
                         <div class="grid__row">
                             <div class="grid__column-4">
-                                <div class="detail__contain-img" style="background-image: url('http://localhost/PROJECTMYHOME/public/assets/image/<?php echo $data['image'][2]?>');"></div>
+                                <div class="detail__contain-img" style="background-image: url('http://localhost/PROJECTMYHOME/public/assets/image/<?php echo $data['image'][4]?>');"></div>
                                 
                             </div>
 
                             <div class="grid__column-6">
-                                <h3 class="detail__contain-title">Ảnh của <?php echo $data['member'][1]?> lúc: <?php echo $data['image'][3]?></h3>
-                                <span class="detail__contain-decription"><?php echo $data['image'][4]?>
+                                <h3 class="detail__contain-title">Ảnh của <?php echo $data['member'][1]?> lúc: <?php echo $data['image'][2]?></h3>
+                                <span class="detail__contain-decription"><?php echo $data['image'][3]?>
                                 </span>
                             </div>
                         </div>

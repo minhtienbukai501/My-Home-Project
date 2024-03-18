@@ -1,8 +1,13 @@
 <?php
     class MemberModel extends Database{
         public function getMember(){
-            $sql = 'select *from member';
-            return $this->con->query($sql);
+            try {
+                $sql = 'select *from member';
+                return $this->con->query($sql);
+            } catch(PDOException $e){
+                echo $e->getMessage();
+            }
+           
         }
 
         public function getMemberId($id){
